@@ -13,7 +13,7 @@ public class DemoLexerTest {
 
     @Test
     public void matchId() throws IOException {
-        String testString = "id1";
+        String testString = "Conj";
         Reader stringReader = new StringReader(testString);
         DemoLexer lexer = new DemoLexer(stringReader);
 

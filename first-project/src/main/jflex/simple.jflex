@@ -9,6 +9,7 @@ import java.io.*;
 digit = [0-9]
 letter = [a-zA-Z]
 whitespace = [ \t\r]
+set = CONJUNTO
 %type Token
 
 %eofval{
